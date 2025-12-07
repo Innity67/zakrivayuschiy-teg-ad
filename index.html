@@ -159,7 +159,7 @@
             <h2 class="card__title">1 спринт: А если не получится?</h2>
             <div class="image__wrapper">
               <img
-                src=".\images\oh_shit.jpg"
+                src="./images/oh_shit.jpg"
                 alt="сложна"
                 class="card__image image-anxiety"
                 loading="lazy"
@@ -553,7 +553,7 @@
       <button
         class="button__popup-open button"
         type="button"
-        onclick="window['popup-id'].showModal()"
+        onclick="window['popup-id'].showModal(); return false;"
         aria-controls="popup-id"
       >
         <svg
@@ -585,7 +585,7 @@
         <button
           class="button__popup-close button"
           type="button"
-          onclick="window['popup-id'].close()"
+          onclick="window['popup-id'].close(); return false;"
           aria-controls="popup-id"
         >
           <span class="button__text">ок</span>

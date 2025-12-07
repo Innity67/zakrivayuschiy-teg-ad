@@ -253,11 +253,6 @@
   flex-shrink: 0;
 }
 
-.icon-floppy {
-  color: var(--bg-color, #ffffff);
-  mix-blend-mode: difference;
-}
-
 .text__popup {
   font-family: var(--accent-font);
   font-weight: 400;
